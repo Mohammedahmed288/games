@@ -1,0 +1,435 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* styel body */
+body{
+    background-color:black;
+}
+/* بدايه */
+.div1{
+    display: flex;
+    justify-content:space-evenly ;
+    margin-top: 40px;
+    margin-left: -55%;
+}
+.div2 {
+    display: flex;
+    justify-content:space-evenly ;
+    margin-left: 50%;
+    margin-top: -30px;
+}
+.div2{
+    line-height: 35px;
+}
+a{
+    color:rgb(128,128,128);
+    text-decoration: none;
+}
+a:hover{
+    color: #FF3399;
+}
+.a11{
+    margin-left: -30%;
+    margin-top: 12px;
+    border: solid rgba(128, 128, 128, 0.321);
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color:rgba(128, 128, 128, 0.321);
+    
+}
+.a3{
+    color:white;
+
+}
+.div2 .img1{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+
+}
+.a3{
+    
+    border: solid rgba(128, 128, 128, 0.321);
+    width: 90px;
+    height: 40px;
+    margin-top: -10px;
+    padding: 7px;
+    border-radius: 50px;
+    background-color:#FF3399 ;
+}
+.a3:hover{
+    background-color: #FF3399;
+    color: white;
+}
+/* نهايه div1 . div2 */
+.contanr{
+    position: relative;
+    border: solid ;
+    width: 90%;
+    height: 1550px;
+    margin: auto;
+    border-radius: 25px;
+    background-color: rgba(128, 128, 128, 0.321);
+}
+.p1{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+
+}
+.bb1{
+    color: white;
+}
+.bb1:hover{
+    color: #FF3399;
+}
+.div3{
+    border: solid black ;
+    background-color:black;
+    margin: auto;
+    margin-top: 50px;
+    width: 90%;
+    height: 850px;
+    border-radius: 20px;
+}
+.div4 img{
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.div5{
+    margin-left: 36%;
+    margin-top: -25%;
+}
+.div5 h1{
+    color: aliceblue;
+    margin-top: 15px;
+}
+.div5 p{
+    color: rgba(128, 128, 128, 0.442);
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+.div5 .button1{
+    width: 100px;
+    height: 30px;
+    border: #FF3399;
+    border-radius: 15px;
+    background-color: #FF3399;
+    color: white;
+}
+.div5 .button2{
+    margin-top: 10%;
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    border:solid #FF3399;
+    color: #FF3399;
+    background-color: black;
+}
+.button2:hover{
+    background-color: white;
+    color: #FF3399;
+}
+.div6{
+    border: solid;
+    width: 300px;
+    height: 250px;
+    background-color:rgba(128, 128, 128, 0.253) ;
+    margin-left: 70%;
+    margin-top: -20%;
+    border-radius: 20px;
+}
+.div7{
+    display: flex; 
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.div7 h3{
+    color: #FF3399;
+
+}
+.div7 p{
+    color:rgba(128, 128, 128, 0.442) ;
+}
+.hr1{
+    margin-top: 10px;
+}
+.hr2{
+    margin-top: 50px;
+}
+.h3{
+    color: white;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+bb{
+    color: #FF3399;
+}
+.all{
+    display: flex; 
+    justify-content: space-around; 
+    margin-top: 30px;
+}
+.div8{
+    text-align: center;
+    border: solid rgba(128, 128, 128, 0.321);
+    background-color: rgba(128, 128, 128, 0.321);
+    width: 280px;
+    height: 250px;
+    border-radius: 20px;
+}
+.div8 img{
+    margin-top: 15px;
+    width: 250px;
+    height:170px ;
+    border-radius: 20px;
+}
+.div8 .pp{
+    color: whitesmoke;
+ margin-right: 180px;
+ font-size: 18px;
+ margin-top: -22px;
+ margin-bottom: 50px;
+}
+.div8 i{
+    margin-top: 8px;
+    margin-left: 180px;
+}
+.bbb{
+    color: aliceblue;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.b1{
+    margin-left: 45%;
+    margin-top: -50px;
+    width: 150px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #FF3399;
+    color: aliceblue;
+}
+.b1:hover{
+    background-color: aliceblue;
+    color: #FF3399;
+}
+.div9{
+    border: solid black ;
+    background-color:black;
+    margin: auto;
+    margin-top: 50px;
+    width: 90%;
+    height: 470px;
+    border-radius: 20px;
+}
+.div9 .h4{
+    color: white;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.game {
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.game img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+}
+
+.details h2 {
+    font-size: 24px;
+    margin-top: -20px;
+    margin-left: 5px;
+}
+
+.details p {
+    margin: 5px 0;
+    margin-left: 120px;
+    margin-top: -15px;
+}
+.button5{
+    border:rgba(128, 128, 128, 0.321) solid;
+    background-color: black;
+    color: rgba(128, 128, 128, 0.321);
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    margin-left: 120px;
+    margin-top: -20px;
+}
+.button3{
+    border:rgba(128, 128, 128, 0.321) solid;
+    background-color: black;
+    color: rgba(128, 128, 128, 0.321);
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    margin-left: 125px;
+    margin-top: -20px;
+}
+.button4{
+    border:rgba(128, 128, 128, 0.321) solid;
+    background-color: black;
+    color: rgba(128, 128, 128, 0.321);
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    margin-left: 110px;
+    margin-top: -20px;
+}
+.u1{
+    color:rgba(128, 128, 128, 0.321);
+    font-size: 20px;
+}
+/* استعلام الوسائط للأجهزة اللوحية */
+@media (max-width: 768px){
+    body {
+        background-color: #111;
+    }
+
+    .div1, .div2 {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .a11 {
+        width: 180px;
+        height: 35px;
+        margin-left: 0;
+    }
+
+    .contanr {
+        width: 95%;
+        height: auto;
+        padding: 15px;
+        margin-top: 20px;
+    }
+
+    .div3, .div9 {
+        width: 100%;
+        height: auto;
+        margin: 20px auto;
+    }
+
+    .div4 img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .div5 {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .div5 h1 {
+        font-size: 24px;
+    }
+
+    .div5 p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .button1, .button2 {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .div6 {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    .div7 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .all, .divaa {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div8 {
+        width: 90%;
+        height: auto;
+        margin: 10px auto;
+    }
+
+    .div8 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .div8 .pp {
+        text-align: center;
+        font-size: 16px;
+    }
+    .div8 i{
+        margin-left: -10px;
+    }
+
+    .b1 {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .game {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .game img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .details {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .details h2, .details p {
+        text-align: center;
+    }
+    .details h2{
+        margin-top: 10px;
+
+    }
+    .details p{
+        margin-top: 10px;
+        margin-left: -1px;
+    }
+
+    .button3, .button4, .button5 {
+        width: 80%;
+        margin: 10px auto;
+    }
+}
+
+

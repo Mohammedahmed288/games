@@ -1,0 +1,384 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* styel body */
+body{
+    background-color:black;
+}
+/* بدايه */
+.div1{
+    display: flex;
+    justify-content:space-evenly ;
+    margin-top: 40px;
+    margin-left: -55%;
+}
+.div2 {
+    display: flex;
+    justify-content:space-evenly ;
+    margin-left: 50%;
+    margin-top: -30px;
+}
+a{
+    color:rgb(128,128,128);
+    text-decoration: none;
+}
+a:hover{
+    color: #FF3399;
+}
+.a11{
+    margin-left: -30%;
+    margin-top: 12px;
+    border: solid rgba(128, 128, 128, 0.321);
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color:rgba(128, 128, 128, 0.321);
+    
+}
+.a2{
+    color: #FF3399;
+
+}
+.div2 .img1{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+
+}
+.a3{
+    
+    border: solid rgba(128, 128, 128, 0.321);
+    width: 90px;
+    height: 40px;
+    margin-top: -10px;
+    padding: 7px;
+    border-radius: 50px;
+    background-color:rgba(128, 128, 128, 0.321) ;
+}
+.a3:hover{
+    background-color: #FF3399;
+    color: white;
+}
+.contanr{
+    position: relative;
+    border: solid rgba(128, 128, 128, 0.321);
+    width: 90%;
+    height: 1700px;
+    margin: auto;
+    border-radius: 25px;
+    background-color: rgba(128, 128, 128, 0.321);
+}
+.div3{
+    border: black solid;
+    background-color: black;
+    width: 740px;
+    height: 460px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 20px;
+} 
+.div3 h1{
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+bb{
+    color: #FF3399;
+}
+.all{
+    display: flex; 
+    justify-content: space-around; 
+    margin-top: 10px;
+}
+.div4 img{
+    width: 200px;
+    height: 320px;
+    margin-left: 2px;
+    border-radius: 20px;
+}
+.div4 h3{
+    color: white;
+    font-size: 12px;
+}
+.div4 p{
+     color: rgba(128, 128, 128, 0.571);
+     font-size: 12px;
+    
+}
+.div4 h3, p{
+ margin-right: 180px;
+ font-size: 20px;
+ margin-top: -50px;
+ margin-bottom: 50px;
+}
+.div4 i{
+    margin-top: 10px;
+    margin-left: 160px;
+    font-size: 12px;
+}
+.div5 h1{
+    margin-top: -55px;
+}
+.div6{
+    border: solid;
+    width: 450px;
+    height: 460px;
+    background-color: black;
+    margin-top: -45px;
+    border-radius: 20px;
+}
+.div7 img{
+    margin-top: 50px;
+    margin-bottom: -5px;
+    margin-left: 20px;
+    border-radius: 20px;
+
+}
+.div7 h3{
+    color: white;
+}
+.divh{
+    margin-left: 120px;
+    margin-top: -75px;
+}
+.u1{
+    color:rgba(128, 128, 128, 0.479);
+    font-size: 20px;
+}
+.divh i{
+    margin-top: 6px;
+    margin-right: 10px;
+}
+#i{
+    margin-left: 130px;
+    border: solid rgba(128, 128, 128, 0.479);
+    background-color: rgba(128, 128, 128, 0.479);
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+    margin-top: -10px;
+    border-radius: 100%;
+}
+.hh{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+.div8{
+    display: flex; 
+    justify-content: space-around; 
+}
+.div9{
+    border: solid rgba(128, 128, 128, 0.479);
+    border-radius: 20px;
+    width: 27%;
+    height: 280px;
+    margin-top: 60px;
+}
+.div9 img{
+    margin-left: 25px;
+    margin-top:30px ;
+    border-radius: 100%;
+}
+.div9 h2{
+    color: white;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.div9 h3{
+    margin-top: 20px;
+    margin-left: 25px;
+    color: rgba(128, 128, 128, 0.479);
+}
+.b1{
+    color: white ;
+}
+.button6{
+    width: 150px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 45%;
+    background-color: #FF3399;
+    color: white;
+    border-radius: 20px;
+}
+.button6:hover{
+    background-color: white;
+    color: #FF3399;
+}
+.div10{
+    border: solid black ;
+    background-color:black;
+    margin: auto;
+    margin-top: 30px;
+    width: 95%;
+    height: 600px;
+    border-radius: 20px;
+}
+.div10 h1{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.div10 u{
+    color: aliceblue;
+}
+.divaa{
+    display: flex; 
+    justify-content: space-around; 
+}
+.div11 .st{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.div11 .av{
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 100%;
+}
+.div11 h2{
+    color: white;
+    margin-left: 75px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+.div11 i{
+    margin-left: 10px;
+    font-size: small;
+}
+.button7{
+    background-color: #FF3399;
+    color: white;
+    width: 15%;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: -10px;
+    margin-left: 43%;
+}
+.button7:hover{
+    background-color: white;
+    color: #FF3399;
+}
+.p1{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+
+}
+.bb1{
+    color: white;
+}
+.bb1:hover{
+    color: #FF3399;
+}
+/* ميديا كويري للتابلت */
+@media (max-width: 768px){
+
+    body {
+        background-color: #111; /* لون أسود أفتح قليلاً لزيادة التباين على الشاشات الأصغر */
+    }
+
+    .div1, .div2 {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .div2{
+        line-height: 35px;
+    }
+    .a11 {
+        width: 180px;
+        height: 35px;
+        margin-left: 0;
+    }
+    .a3 {
+        line-height: 25px;
+        margin-left: 3px;
+    }
+    .contanr {
+        width: 100%;
+        height: auto; /* اجعل الارتفاع تلقائيًا */
+        padding: 20px;
+        margin-top: 20px;
+        
+    }
+    .div3 {
+        width: 100%;
+        margin-left: 0;
+        height: auto; /* اجعل الارتفاع تلقائيًا */
+    }
+    .all{
+        flex-direction: column;
+        align-items: center;
+    }
+    .div4{
+        flex-direction: column;
+        align-items: center;
+      
+    }
+    .div4 img {
+        
+        width: 100%;
+        height: 230px;
+        margin: auto; 
+        margin-top: 10px;
+    }
+    .div4 ,h3{
+        margin-top: -20px;
+        font-size: 25px;
+    }
+    .div4 p{
+        font-size: 15px;
+    }
+    .div5{
+        margin-top: 15px;
+    }
+    .div6 {
+        margin-top: 10px;
+        width: 90%;
+        height: auto;
+
+    }
+    .div8{
+        flex-direction: column;
+        align-items: center;
+    }
+    .div9 {
+        width: 80%;
+        margin: auto;
+        height: auto;
+    }
+    .div10 {
+        width: 100%;
+        height: auto;
+    }
+    .divaa {
+        flex-direction: column;
+        align-items: center;
+    }
+    .div11 .st  {
+        margin: auto;
+        flex-direction: column;
+        width: 150px;
+        height: 230px;
+    }
+    .button6, .button7 {
+        width: 70%;
+        margin: 20px auto;
+        margin-left: 14%;
+    }
+}
+@media (max-width: 600px) and (min-width: 800px) {
+    .div11{
+        flex-direction: column;
+    }
+}
+
+
